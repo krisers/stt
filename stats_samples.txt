@@ -1,0 +1,35 @@
+ARRIVAL
+tokens: 7636
+charcters: 42674
+segments: 2 (20000 )
+type: movie
+
+THE NICE GUYS
+tokens: 9251
+charcters: 58507
+segments: 3  (25000- 50000)
+type: movie
+
+THE OTHER GUYS
+tokens: 14584
+charcters: 84869
+segments: 4 (2000 - 40000 - 60000)
+type: movie
+
+THE NANNY - S02E07
+tokens: 2749
+charcters: 14652
+segments: 1
+type: episode
+
+LAW AND ORDER S09S17
+tokens: 4985
+charcters: 30502
+segments: 2 (15000)
+type: episode
+
+BROOKLYN 99 S04E06
+tokens: 3586
+charcters: 22203
+segments: 1
+type: episode

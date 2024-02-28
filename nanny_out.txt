@@ -1,0 +1,56 @@
+prompt system = "You are a helpful assistant."
+CUDA - 0.5 B
+This is a potential script for a musical production of "Romeo and Juliet." The play follows a group of friends as they 
+explore their own dreams and desires. However, when Juliet dies in a tragic accident, she asks for revenge on her lover, 
+who is responsible for her death. As a result, the characters must confront their own flaws and struggles in order to 
+create a happy and satisfying conclusion.
+
+CPU - 0.5 B
+In this Teatro alla Parieta production, the story follows Romeo and Juliet, 
+two teenagers living in the countryside, as they fall in love with each other and navigate their complicated relationships. 
+The play explores themes of love, loss, sacrifice, and the consequences of following one's dreams.
+
+CPU - 1.8 B
+Synopsis: In a play set to be adapted from William Shakespeare's classic "Romeo and Juliet," Fran, a talented actress, p
+retends to be the lead role, Romeo, while actually working as a nanny to Niles, a former actor turned producer who hires 
+her to portray Juliet, their child. Niles becomes involved in the production and agrees to take on the role of Romeo, 
+despite knowing he is fake. As rehearsals progress, Fran begins to realize that she is being manipulated by Niles, who is 
+using her genuine passion for Shakespeare to create a hit musical that will showcase his avant-garde genius. Fran's actions 
+lead to conflicts within the production team, with Niles ultimately realizing that he cannot control Frank's true identity, 
+which causes him to take matters into his own hands by revealing her secret and forcing her to flee the play. The story ends
+with Fran and Niles descending to heaven and meeting Shakespeare, where they reflect on the power of love and the 
+consequences of manipulating the narrative. The play explores themes of betrayal, manipulation, and the transformative 
+power of storytelling.
+
+prompt system = "You are a movie reviewer."
+CPU - 1.8 B
+'This movie, titled "Fran! / Niles!", follows a double entendre between the protagonist Fran (played by Sarah) and her 
+wealthy brother, Niles (played by Tony). Fran fake-claims to be going to the Hamptons with friends and their father, while 
+secretly working as a nanny at the local boarding school, hoping to secure a role in a new production of Shakespeare\'s 
+classic tragedy, Romeo and Juliet.\n\nAs the production begins, Fran discovers a twist in the plot that involves her 
+brother, which leads to a confrontation with the original actor, Philippe (played by Philip), a brilliant avant-garde 
+genius who has taken a chance on Niles and hired her as Juliet. However, due to Fran\'s perceived lack of talent, 
+the production falls flat, and Philippe faces backlash from the audience and critics alike.\n\nThe film highlights 
+themes of jealousy, ambition, and self-discovery, as Fran learns to navigate the complexities of love, professional 
+expectations, and societal norms within the confines of the English宫廷. As the play nears its conclusion, Fran and Niles 
+confront their differences and decide to take matters into their own hands, setting off a chain reaction that ultimately 
+brings the curtain down on the tragic love story.\n\nWhile the main focus of the movie is on Fran'
+
+"In summary, the film follows a fake version of Fran and Niles, who are attending a weekend getaway in the Hamptons. 
+While Fran claims to be excited about the trip, Niles is actually feeling unwell and pretending to be sick to avoid 
+missing rehearsals for a new play being staged. The play revolves around Romeo and Juliet, who were originally meant 
+to star in the production, but due to thefakeFran/Niles storyline, their roles have been changed to focus on the 
+playwright's twisted take on the tragic tale. The characters interact with other actors and characters throughout 
+the weekend, including a nurse and the playwright's wife, but ultimately decide to leave the Hamptons and return home, 
+ behind a confusing and awkward reunion scene. The film explores themes of deception, betrayal, and the power dynamics 
+ within a creative partnership."
+
+'Summary: The film adaptation of Shakespeare\'s classic tragedy "Romeo and Juliet" features a new twist on the story, 
+where the protagonist, Fran, pretends to be a young woman named Juliet, the daughter of the Duke of Mantua, in order 
+to escape from her arranged marriage to Lord Montague. Instead of playing the role herself, Fran enlists the help of 
+her childhood friend, Niles, to create a convincing portrayal of Juliet\'s inner turmoil and love for Romeo. Despite 
+their intentions to have a happy ending, Fran and Niles find themselves involved in a series of events that challenge 
+traditional gender roles and expectations, ultimately leading to the tragic consequences of their actions. The film 
+explores themes of forbidden love, societal pressures, and the complexities of identity and self-discovery in a 
+reimagining of a beloved literary masterpiece.'
+ 
