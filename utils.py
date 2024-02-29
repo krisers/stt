@@ -607,7 +607,6 @@ class SummarizerQwen():
         self.model = AutoModelForCausalLM.from_pretrained(
                                                 qwen_model_name,
                                                 torch_dtype="auto",
-                                                device_map="auto"
                                                 ).to(device)
         self.tokenizer = AutoTokenizer.from_pretrained(qwen_model_name)
 
