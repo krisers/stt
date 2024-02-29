@@ -20,7 +20,7 @@ if __name__ == "__main__":
     print(f'text_filename: \t{text_fn}')
     device = args.device[0]
     print(f'Device: \t{device}')
-    prompt_ins = args.prompt_inst[0]
+    prompt_ins = args.prompt_ins[0]
     print(f'Prompt_ ins: \t{prompt_ins}')
     task = args.task[0]
     print(f'task: \t{task}')
