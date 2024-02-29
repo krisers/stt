@@ -9,7 +9,7 @@ if __name__ == "__main__":
     parser.add_argument('--model_name', metavar='str', nargs=1, default=['Qwen/Qwen1.5-7B-Chat'], help='Model name')
     parser.add_argument('--text_filename', metavar='str', nargs=1, default=['b99s04e05.srt'], help='Transcript file to be summarized')
     parser.add_argument('--device', metavar='str', nargs=1, default=['cuda'], help='cpu or cuda')
-    parser.add_argument('--prompt_inst', metavar='str', nargs=1, default=['Yur are a helpful assistant.'], help='Instruction for prompt behaviour')
+    parser.add_argument('--prompt_ins', metavar='str', nargs=1, default=['Yur are a helpful assistant.'], help='Instruction for prompt behaviour')
     parser.add_argument('--task', metavar='str', nargs=1, default=['summarize as a teaser synopsis in 3 sentences'], help='task for LLM')
 
     args = parser.parse_args()
@@ -26,12 +26,13 @@ if __name__ == "__main__":
     print(f'task: \t{task}')
 
 
-    INPUT=get_text_from_srt('b99s04e05.srt')
+    INPUT=get_text_from_srt(text_fn)
 
-    sq = SummarizerQwen(qwen_model_name="Qwen/Qwen1.5-7B-Chat",device='cpu')
+    sq = SummarizerQwen(qwen_model_name=model_name,device=device)
 
-    task = "summarize as a teaser synopsis in 3 sentences"
-    prompt_system = "You are a helpful assistant."
-
-    summary = sq.summarize(task=task,input_text=INPUT,prompt_sys=prompt_system)
+    #task = "summarize as a teaser synopsis in 3 sentences"
+    #prompt_system = "You are a helpful assistant."
+    t0 = time.time()
+    summary = sq.summarize(task=task,input_text=INPUT,prompt_sys=prompt_ins)
+    print(f'Summary generated in {time.time()-t0} s')
     print(summary)
