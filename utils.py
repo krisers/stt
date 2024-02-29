@@ -649,8 +649,6 @@ class SummarizerQwen():
         response = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
         if save_to_file:
-            if output_filename=='out.txt':
-                output_filename = f'{input_text[:-4]}_summary.txt'
             with open(output_filename,"w") as of:
                 of.write(response)
         return response

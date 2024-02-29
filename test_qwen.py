@@ -27,12 +27,12 @@ if __name__ == "__main__":
 
 
     INPUT=get_text_from_srt(text_fn)
-
+    out_fn= f'{text_fn[:-4]}_summary.txt'
     sq = SummarizerQwen(qwen_model_name=model_name,device=device)
 
     #task = "summarize as a teaser synopsis in 3 sentences"
     #prompt_system = "You are a helpful assistant."
     t0 = time.time()
-    summary = sq.summarize(task=task,input_text=INPUT,prompt_sys=prompt_ins)
+    summary = sq.summarize(task=task,input_text=INPUT,prompt_sys=prompt_ins,output_filename=out_fn)
     print(f'Summary generated in {time.time()-t0} s')
     print(summary)
