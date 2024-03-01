@@ -1,5 +1,5 @@
 import os 
-DEV = 'cpu'
+DEV = 'cuda'
 MODEL = '4'
 if __name__ == "__main__":
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='b99s04e03.srt' " )
