@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
 
     INPUT=get_text_from_srt(text_fn)
-    out_fn= f'{text_fn[:-4]}_summary_4b_cpu.txt'
+    out_fn= f'{text_fn[:-4]}_summary_4b_cuda.txt'
     sq = SummarizerQwen(qwen_model_name=model_name,device=device)
 
     #task = "summarize as a teaser synopsis in 3 sentences"
