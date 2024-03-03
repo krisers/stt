@@ -10,7 +10,7 @@ if __name__ == "__main__":
     parser.add_argument('--text_filename', metavar='str', nargs=1, default=['b99s04e05.srt'], help='Transcript file to be summarized')
     parser.add_argument('--device', metavar='str', nargs=1, default=['cuda'], help='cpu or cuda')
     parser.add_argument('--prompt_ins', metavar='str', nargs=1, default=['You are a helpful assistant.'], help='Instruction for prompt behaviour')
-    parser.add_argument('--task', metavar='str', nargs=1, default=['summarize as a teaser synopsis in 3 short sentences'], help='task for LLM')
+    parser.add_argument('--task', metavar='str', nargs=1, default=['summarize as a teaser synopsis in one sentences'], help='task for LLM')
 
     args = parser.parse_args()
 
@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
 
     INPUT=get_text_from_srt(text_fn)
-    out_fn= f'{text_fn[:-4]}_summary_4b_cuda.txt'
+    out_fn= f'{text_fn[:-4]}_summary_{model_name[-7:-5]}_{device}.txt'
     sq = SummarizerQwen(qwen_model_name=model_name,device=device)
 
     #task = "summarize as a teaser synopsis in 3 sentences"
