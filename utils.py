@@ -625,6 +625,7 @@ class SummarizerQwen():
                   max_new_length_tokens:int=256,
                   save_to_file:bool=True,
                   output_filename:str="out.txt"):
+        t0=time.time()
         prompt = f"{task} : {input_text}"
         messages = [
             {"role": "system", "content": prompt_sys},
@@ -650,4 +651,5 @@ class SummarizerQwen():
         if save_to_file:
             with open(output_filename,"w") as of:
                 of.write(response)
+                of.writelines(f'{time.time()-t0} s')
         return response
