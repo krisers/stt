@@ -37,11 +37,19 @@ if __name__ == "__main__":
 
     #input_text = "What do you know about Edgar Allan Poe?"
 
-    input_ids = tokenizer(f'summarize in one sentence: {INPUT}', return_tensors="pt")
+    input_ids = tokenizer(f' {task}', return_tensors="pt")
 
     outputs = model.generate(**input_ids,max_length = 7000)
     print(tokenizer.decode(outputs[0]))
 
+    print('#'*30)
+    instruction="Summarize the text"
+    context="""“Peter and Elizabeth took a taxi to attend the night party in the city. While in the party, Elizabeth collapsed and was rushed to the hospital. Since she was diagnosed with a brain injury, the doctor told Peter to stay besides her until she gets well. Therefore, Peter stayed with her at the hospital for 3 days without leaving.”"""
+    response=""
+    prompt = f"Instruction:\n{instruction}\n\nContext:{context}\n\nResponse:\n{response}"
+    print(prompt)
+    # ## Via instruct model
+    print(model.generate([prompt], max_length=260))
 
     #task = "summarize as a teaser synopsis in 3 sentences"
 
