@@ -49,7 +49,8 @@ if __name__ == "__main__":
     prompt = f"Instruction:\n{instruction}\n\nContext:{context}\n\nResponse:\n{response}"
     print(prompt)
     # ## Via instruct model
-    print(model.generate([prompt], max_length=260))
+    token_prompt = tokenizer(prompt,return_tensors='pt')
+    print(model.generate(prompt, max_length=260))
 
     #task = "summarize as a teaser synopsis in 3 sentences"
 
