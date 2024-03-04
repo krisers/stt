@@ -657,9 +657,10 @@ class SummarizerQwen():
             with open(output_filename,"w") as of:
                 of.write(response)
                 of.writelines(f'\n{time.time()-t0} s')
+                
         return response
     
-    def summarize_gamma(self,input ):
+    def summarize_gamma(self,input_text:str ):
 
         input_text = "Write me a poem about Machine Learning."
         input_ids = self.tokenizer(input_text, return_tensors="pt")

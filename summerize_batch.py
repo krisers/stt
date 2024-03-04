@@ -12,3 +12,4 @@ if __name__ == "__main__":
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='arrival.srt' " )
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='theniceguys.srt' " )
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='theotherguys.srt' " )
+ #python test_qwen.py --device='cpu' --model_name='google/gemma-7b' --text_filename='b99s04e03.srt'
