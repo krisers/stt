@@ -606,9 +606,11 @@ class SummarizerQwen():
                                                     qwen_model_name,
                                                     torch_dtype="auto",
                                                     ).to(device)
+            self.tokenizer = AutoTokenizer.from_pretrained(qwen_model_name)
+
         else:
-            self.model = AutoModelForCausalLM.from_pretrained(qwen_model_name,token=TOKEN)
-        self.tokenizer = AutoTokenizer.from_pretrained(qwen_model_name)
+            self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b")
+            self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b")
 
         self.device = device
         self.max_length=150
@@ -625,6 +627,9 @@ class SummarizerQwen():
                   max_new_length_tokens:int=256,
                   save_to_file:bool=True,
                   output_filename:str="out.txt"):
+        if self.model_name == 'google/gemma-7b':
+            self.summarize_gamma()
+            return
         t0=time.time()
         prompt = f"{task} : {input_text}"
         messages = [
@@ -653,3 +658,11 @@ class SummarizerQwen():
                 of.write(response)
                 of.writelines(f'\n{time.time()-t0} s')
         return response
+    
+    def summarize_gamma(self,input ):
+
+        input_text = "Write me a poem about Machine Learning."
+        input_ids = self.tokenizer(input_text, return_tensors="pt")
+
+        outputs = self.model.generate(**input_ids)
+        print(self.tokenizer.decode(outputs[0]))
