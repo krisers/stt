@@ -2,7 +2,7 @@ import os
 DEV = 'cpu'
 MODEL = '7'
 if __name__ == "__main__":
-    os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='b99s04e03.srt' " )
+    os.system(f"python test_qwen.py --device='{DEV}' --model_name='google/gemma-7b' --text_filename='b99s04e03.srt' " )
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='b99s04e04.srt' " )
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='b99s04e05.srt' " )
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='b99s04e06.srt' " )
