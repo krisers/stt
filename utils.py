@@ -651,5 +651,5 @@ class SummarizerQwen():
         if save_to_file:
             with open(output_filename,"w") as of:
                 of.write(response)
-                of.writelines(f'{time.time()-t0} s')
+                of.writelines(f'\n{time.time()-t0} s')
         return response

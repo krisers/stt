@@ -1,6 +1,6 @@
 import os 
 DEV = 'cpu'
-MODEL = '4'
+MODEL = '14'
 if __name__ == "__main__":
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='b99s04e03.srt' " )
     os.system(f"python test_qwen.py --device='{DEV}' --model_name='Qwen/Qwen1.5-{MODEL}B-Chat' --text_filename='b99s04e04.srt' " )
