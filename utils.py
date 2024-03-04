@@ -14,9 +14,6 @@ import json
 import fasttext
 import nltk
 
-
-
-
 from sys import maxsize
 import whisper
 from pydub import AudioSegment
@@ -25,7 +22,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from transformers import BartTokenizer, BartForConditionalGeneration
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-
+TOKEN = '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'
 
 
 SAMPLE_RATE = 16000
@@ -604,10 +601,13 @@ class Summarizer():
 class SummarizerQwen():
     def __init__(self,qwen_model_name:str="Qwen/Qwen1.5-0.5B-Chat",device:str = "cuda"):
         self.model_name = qwen_model_name
-        self.model = AutoModelForCausalLM.from_pretrained(
-                                                qwen_model_name,
-                                                torch_dtype="auto",
-                                                ).to(device)
+        if qwen_model_name!='google/gemma-7b':
+            self.model = AutoModelForCausalLM.from_pretrained(
+                                                    qwen_model_name,
+                                                    torch_dtype="auto",
+                                                    ).to(device)
+        else:
+            self.model = AutoModelForCausalLM.from_pretrained(qwen_model_name,token=TOKEN)
         self.tokenizer = AutoTokenizer.from_pretrained(qwen_model_name)
 
         self.device = device
