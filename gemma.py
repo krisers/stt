@@ -13,7 +13,7 @@ if __name__ == "__main__":
     parser.add_argument('--text_filename', metavar='str', nargs=1, default=['b99s04e05.srt'], help='Transcript file to be summarized')
     parser.add_argument('--device', metavar='str', nargs=1, default=['cuda'], help='cpu or cuda')
     parser.add_argument('--prompt_ins', metavar='str', nargs=1, default=['You are a helpful assistant.'], help='Instruction for prompt behaviour')
-    parser.add_argument('--task', metavar='str', nargs=1, default=['summarize as a teaser synopsis in one sentence in the style of a movie database.'], help='task for LLM')
+    parser.add_argument('--task', metavar='str', nargs=1, default=['"What do you know about Edgar Allan Poe?"'], help='task for LLM')
 
     args = parser.parse_args()
 
@@ -35,16 +35,13 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b",token=TOKEN)
     model = AutoModelForCausalLM.from_pretrained("google/gemma-7b",token=TOKEN)
 
-    input_text = "What do you know about Edgar Allan Poe?"
-    input_ids = tokenizer(input_text, return_tensors="pt")
+    #input_text = "What do you know about Edgar Allan Poe?"
+
+    input_ids = tokenizer(task, return_tensors="pt")
 
     outputs = model.generate(**input_ids)
     print(tokenizer.decode(outputs[0]))
 
 
     #task = "summarize as a teaser synopsis in 3 sentences"
-    #prompt_system = "You are a helpful assistant."
-    t0 = time.time()
-    summary = sq.summarize(task=task,input_text=INPUT,prompt_sys=prompt_ins,output_filename=out_fn)
-    print(f'Summary generated in {time.time()-t0} s')
-    print(summary)
+
