@@ -609,8 +609,8 @@ class SummarizerQwen():
             self.tokenizer = AutoTokenizer.from_pretrained(qwen_model_name)
 
         else:
-            self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b")
-            self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b")
+            self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b",token=TOKEN)
+            self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b",token=TOKEN)
 
         self.device = device
         self.max_length=150
@@ -659,7 +659,7 @@ class SummarizerQwen():
                 of.writelines(f'\n{time.time()-t0} s')
         return response
     
-    def summarize_gamma(self,input ):
+    def summarize_gamma(self,input:str='' ):
 
         input_text = "Write me a poem about Machine Learning."
         input_ids = self.tokenizer(input_text, return_tensors="pt")
