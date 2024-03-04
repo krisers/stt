@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print(prompt)
     # ## Via instruct model
     token_prompt = tokenizer(prompt,return_tensors='pt')
-    print(model.generate(prompt, max_length=260))
+    print(model.generate(**token_prompt, max_length=260))
 
     #task = "summarize as a teaser synopsis in 3 sentences"
 
