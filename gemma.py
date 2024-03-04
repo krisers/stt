@@ -32,8 +32,8 @@ if __name__ == "__main__":
     INPUT=get_text_from_srt(text_fn)
     out_fn= f'{text_fn[:-4]}_summary_{model_name[-7:-5]}_{device}.txt'
     
-    tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b",token=TOKEN)
-    model = AutoModelForCausalLM.from_pretrained("google/gemma-7b",token=TOKEN)
+    tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b-it",token=TOKEN)
+    model = AutoModelForCausalLM.from_pretrained("google/gemma-7b-it",token=TOKEN)
 
     #input_text = "What do you know about Edgar Allan Poe?"
 
