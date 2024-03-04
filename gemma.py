@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     #input_text = "What do you know about Edgar Allan Poe?"
 
-    input_ids = tokenizer(f'Summerize in one sentence: { INPUT}', return_tensors="pt")
+    input_ids = tokenizer(f'summarize in one sentence: {INPUT}', return_tensors="pt")
 
     outputs = model.generate(**input_ids,max_length = 7000)
     print(tokenizer.decode(outputs[0]))
