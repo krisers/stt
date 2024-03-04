@@ -601,16 +601,11 @@ class Summarizer():
 class SummarizerQwen():
     def __init__(self,qwen_model_name:str="Qwen/Qwen1.5-0.5B-Chat",device:str = "cuda"):
         self.model_name = qwen_model_name
-        if qwen_model_name!='google/gemma-7b':
-            self.model = AutoModelForCausalLM.from_pretrained(
-                                                    qwen_model_name,
-                                                    torch_dtype="auto",
-                                                    ).to(device)
-            self.tokenizer = AutoTokenizer.from_pretrained(qwen_model_name)
-
-        else:
-            self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b",token=TOKEN)
-            self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b",token=TOKEN)
+        self.model = AutoModelForCausalLM.from_pretrained(
+                                                qwen_model_name,
+                                                torch_dtype="auto",
+                                                ).to(device)
+        self.tokenizer = AutoTokenizer.from_pretrained(qwen_model_name)
 
         self.device = device
         self.max_length=150
@@ -627,9 +622,7 @@ class SummarizerQwen():
                   max_new_length_tokens:int=256,
                   save_to_file:bool=True,
                   output_filename:str="out.txt"):
-        if self.model_name == 'google/gemma-7b':
-            self.summarize_gamma()
-            return
+
         t0=time.time()
         prompt = f"{task} : {input_text}"
         messages = [
@@ -661,6 +654,8 @@ class SummarizerQwen():
         return response
     
     def summarize_gamma(self,input:str='' ):
+        self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b",token=TOKEN)
+        self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b",token=TOKEN)
 
         input_text = "Write me a poem about Machine Learning."
         input_ids = self.tokenizer(input_text, return_tensors="pt")
