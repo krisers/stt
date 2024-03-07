@@ -660,5 +660,5 @@ class SummarizerQwen():
         input_text = f"Summarize in one sentence : {input}"
         input_ids = self.tokenizer(input_text, return_tensors="pt")
 
-        outputs = self.model.generate(**input_ids,max_new_tokens=500,max_lenght=6000)
+        outputs = self.model.generate(**input_ids,max_new_tokens=500,max_length=6000)
         print(self.tokenizer.decode(outputs[0]))
