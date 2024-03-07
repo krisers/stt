@@ -654,10 +654,10 @@ class SummarizerQwen():
         return response
     
     def summarize_gamma(self,input:str='' ):
-        self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b",token=TOKEN)
-        self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b",token=TOKEN)
+        self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b-it",token=TOKEN)
+        self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b-it",token=TOKEN)
 
-        input_text = "Write me a poem about Machine Learning."
+        input_text = f"Summarize in one sentence : {input}"
         input_ids = self.tokenizer(input_text, return_tensors="pt")
 
         outputs = self.model.generate(**input_ids)
