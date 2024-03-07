@@ -657,8 +657,9 @@ class SummarizerQwen():
         self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b-it",token=TOKEN)
         self.model = AutoModelForCausalLM.from_pretrained("google/gemma-7b-it",token=TOKEN)
 
-        input_text = f"Summarize in one sentence in the form of a teaser synopsis: {input}"
+        input_text = f"Summarize the transcript in one sentence in the form of a teaser synopsis: {input}"
         input_ids = self.tokenizer(input_text, return_tensors="pt")
 
         outputs = self.model.generate(**input_ids,max_new_tokens=500)
+        print('###########################')
         print(self.tokenizer.decode(outputs[0]))
