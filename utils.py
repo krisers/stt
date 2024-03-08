@@ -265,6 +265,7 @@ class TTS():
 ############
     def subtitles_video(self,filename,is_url:bool=False,is_audio:bool=False,url:str='https://youtu.be/oTN7xO6emU0',language:str='en',save_srt:bool=True,save_txt:bool=False,chunk_length:int=-1):
         if is_url:
+            print('IT IS URL')
             os.system(f'yt-dlp --verbose  --recode-video mp4 {url} -o {filename}')
             print('Finished downloading.')
         folder_chunks = None
