@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     parser.add_argument('--translate', type=bool, nargs=1, default=False, help='Translate or keep original language')
     parser.add_argument('--source_language', metavar='str', nargs=1, default=['unknown'], help='Language to translate from.')
-    parser.add_argument('--target_language', metavar='str', nargs=1, default=['unknown'], help='Language to translate to')
+    parser.add_argument('--target_language', metavar='str', nargs=1, default=['tur_Latn'], help='Language to translate to')
 
 
     args = parser.parse_args()
@@ -35,8 +35,10 @@ if __name__ == "__main__":
 
     stt = TTS()
     stt.translate = translate
-    stt.translator.set_source_language (source_language)
-    stt.translator.set_target_language (target_language)
+    if translate:
+        if source_language!='unknown':
+            stt.translator.set_source_language (source_language)
+        stt.translator.set_target_language (target_language)
 
     stt.subtitles_video(filename=video_filename,
                         is_url=url,
