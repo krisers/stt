@@ -26,7 +26,7 @@ if __name__ == "__main__":
     device = args.device[0]
     print(f'Device: \t{device}')
 
-    translate = args.translate[0]
+    translate = args.translate
     print(f'Translate: \t{translate}')
     source_language = args.source_language[0]
     print(f'source language: \t{source_language}')
