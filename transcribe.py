@@ -6,6 +6,7 @@ if __name__ == "__main__":
     parser.add_argument('--video_file', metavar='str', nargs=1, default=['sample.mp4'], help='Model name')
     parser.add_argument('--is_url', type=bool, nargs=1, default=False, help='Indicates if source is local or not')
     parser.add_argument('--url', metavar='str', nargs=1, default=['https://youtu.be/oTN7xO6emU0'], help='Link to download the video from if URL.')
+    parser.add_argument('--transcription_language', metavar='str', nargs=1, default=['en'], help='Language to transcribe.')
 
     parser.add_argument('--device', metavar='str', nargs=1, default=['cuda'], help='cpu or cuda')
 
@@ -18,10 +19,12 @@ if __name__ == "__main__":
 
     video_filename = args.video_file[0]
     print(f'Video: \t{video_filename}')
-    is_url= args.is_url[0]
+    is_url= args.is_url
     print(f'Is url: \t{is_url}')
     url = args.url[0]
     print(f'URL:\t{url}')
+    transcription_language = args.transcription_language[0]
+    print(f'Transcription language: \t{transcription_language}')
 
     device = args.device[0]
     print(f'Device: \t{device}')
@@ -42,4 +45,5 @@ if __name__ == "__main__":
 
     stt.subtitles_video(filename=video_filename,
                         is_url=url,
-                        url=url)
+                        url=url,
+                        language=transcription_language)

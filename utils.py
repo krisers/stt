@@ -263,13 +263,13 @@ class TTS():
             shutil.rmtree(folder_chunks)
 
 ############
-    def subtitles_video(self,filename,is_url:bool=False,is_audio:bool=False,url:str='https://youtu.be/oTN7xO6emU0',languag:str='en',save_srt:bool=True,save_txt:bool=False,chunk_length:int=-1):
+    def subtitles_video(self,filename,is_url:bool=False,is_audio:bool=False,url:str='https://youtu.be/oTN7xO6emU0',language:str='en',save_srt:bool=True,save_txt:bool=False,chunk_length:int=-1):
         if is_url:
             os.system(f'yt-dlp --verbose  --recode-video mp4 {url} -o {filename}')
             print('Finished downloading.')
         folder_chunks = None
         chunk_files = []
-        modelw = whisper.load_model("medium")
+        modelw = whisper.load_model("large")
         subs_objs = []
         chunk_audio =[]
         if chunk_length>0:         
@@ -291,7 +291,7 @@ class TTS():
         subs_text = ''
         for index_segment in range(len(chunk_audio)):
             t0 = time.time()
-            result = modelw.transcribe(chunk_audio[index_segment],language=languag)
+            result = modelw.transcribe(chunk_audio[index_segment],language=language)
             #print(result)
             t1 = time.time() - t0
             times.append(t1)
