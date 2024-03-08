@@ -316,7 +316,7 @@ class TTS():
                 
                 subs_text+=it['text']
                 subs_text+= '\n'
-                print(f'Start:\t{it["start"]}\tEnd:\t{it["end"]}Text:\t{it["text"]}')
+                #print(f'Start:\t{it["start"]}\tEnd:\t{it["end"]}Text:\t{it["text"]}')
 
         
         # When everything done, release the video capture object
