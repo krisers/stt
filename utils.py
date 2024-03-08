@@ -295,7 +295,7 @@ class TTS():
             result = modelw.transcribe(chunk_audio[index_segment],language=language)
             #print(result)
             t1 = time.time() - t0
-            print(f'Time till transcription completed:\t{t1-t0} s')
+            print(f'Time till transcription completed:\t{t1} s')
             times.append(t1)
             all_results.append(result)
             for it in result['segments']:
