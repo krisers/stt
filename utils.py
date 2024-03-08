@@ -499,8 +499,8 @@ class Translator():
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.detection_model = fasttext.load_model("lid218e.bin")
-        self.source_language = None
-        self.target_language =  None
+        self.source_language = 'unknown'
+        self.target_language =  'unknown'
         with open('flora200.json') as f:
             self.language_tags = json.load(f)
 
@@ -550,10 +550,10 @@ class Translator():
     
     def translate(self,text):
 
-        if self.source_language==None:
+        if self.source_language=='unknown':
             self.source_language = self.detect_language(text)
 
-        if self.target_language == None:
+        if self.target_language == 'unknown':
             print('Please set the target language.')
             return ''
         batches = divide_text_into_sentence(text)
