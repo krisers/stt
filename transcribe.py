@@ -4,7 +4,7 @@ from utils import TTS
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--video_file', metavar='str', nargs=1, default=['sample.mp4'], help='Model name')
-    parser.add_argument('--is_url', help='Indicates if source is local or not',action='store_true')
+    parser.add_argument('--is_url', type=bool, nargs=1, default=False, help='Indicates if source is local or not')
     parser.add_argument('--url', metavar='str', nargs=1, default=['https://youtu.be/oTN7xO6emU0'], help='Link to download the video from if URL.')
     parser.add_argument('--transcription_language', metavar='str', nargs=1, default=['en'], help='Language to transcribe.')
 
@@ -44,6 +44,6 @@ if __name__ == "__main__":
         stt.translator.set_target_language (target_language)
 
     stt.subtitles_video(filename=video_filename,
-                        is_url=url,
+                        is_url=is_url,
                         url=url,
                         language=transcription_language)
