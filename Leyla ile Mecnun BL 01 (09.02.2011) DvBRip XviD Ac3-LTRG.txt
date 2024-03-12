@@ -1,12 +1,10 @@
 1
 00:01:50,424 --> 00:01:55,424
-DivXPLANET Fansub!
-dpfansub@divxplanet.com
+-
 
 2
 00:01:55,425 --> 00:02:00,425
-Emeği geçenler: qabRieL, Fildir,
-eybat, SyLaR_54, Timeless
+-
 
 3
 00:02:05,425 --> 00:02:08,291
@@ -292,7 +290,7 @@ Evet, daha kahve içecektik.
 
 61
 00:05:31,393 --> 00:05:34,060
-[KISIK SESLE]
+-
 Yahu Pakize, ben çok gerildim ya.
 
 62
@@ -388,7 +386,7 @@ görürsek inşallah.
 
 81
 00:06:47,005 --> 00:06:50,920
-[KISIK SESLE] Bak, güzel.
+ Bak, güzel.
 Buradan yürürüm. Hazır gaza...
 
 82
@@ -577,7 +575,7 @@ Ben sana daha güzelini alırım. Kalk.
 
 120
 00:08:56,919 --> 00:08:58,870
-[PAKİZE] İskender!
+ İskender!
 Kalk oğlum, kalk.
 
 121
@@ -713,35 +711,35 @@ Ee ben de taksideyim yani, müşteri var.
 
 148
 00:10:37,218 --> 00:10:39,813
-<i>Lay lay lay lay lay la.</i>
+Lay lay lay lay lay la.
 
 149
 00:10:40,594 --> 00:10:42,780
-<i>İşte komşular hastaneye
+İşte komşular hastaneye
 yetirmişler anneni.
 
 150
 00:10:42,781 --> 00:10:45,455
-<i>Geldim baktım, yoklar. Ben de
+Geldim baktım, yoklar. Ben de
 yetiştim arkasından hastaneye.
 
 151
 00:10:46,137 --> 00:10:48,457
-<i>Hemşire beni aldı götürdü
+Hemşire beni aldı götürdü
 yeni doğanların odasına.
 
 152
 00:10:48,823 --> 00:10:53,823
-<i>Bi' baktım... Yatağın başında bir herif.
+Bi' baktım... Yatağın başında bir herif.
 Direkt kıllandım tabii...
 
 153
 00:10:54,030 --> 00:10:55,412
-<i>...kim lan bu herif diye.
+...kim lan bu herif diye.
 
 154
 00:10:58,423 --> 00:11:01,717
-<i>Sonra hemşire dedi ki:<i>
+Sonra hemşire dedi ki:
 "İşte beyefendi, fazla yatağımız...
 
 155
@@ -751,7 +749,7 @@ yatırmak zorunda kaldık."...
 
 156
 00:11:03,648 --> 00:11:07,812
-<i>...dedi. Böyle bi' sana baktım,
+...dedi. Böyle bi' sana baktım,
 bi' kıza baktım.
 
 157
@@ -760,11 +758,11 @@ Yavrum.
 
 158
 00:11:09,202 --> 00:11:10,772
-<i>Bi' kızın babasına baktım.
+Bi' kızın babasına baktım.
 
 159
 00:11:11,903 --> 00:11:14,020
-<i>Dedim ki:</i>
+Dedim ki:
 "Dayı be...
 
 160
@@ -880,8 +878,8 @@ kız bizim be.
 
 183
 00:12:30,059 --> 00:12:33,983
-<i>Tey tey tey tey,
-vey vey vey vey.</i>
+Tey tey tey tey,
+vey vey vey vey.
 
 184
 00:12:34,920 --> 00:12:36,944
@@ -1086,8 +1084,8 @@ Geçen gün ben gittim...
 
 226
 00:14:56,977 --> 00:14:59,181
-<i>...sabah tıraş olmaya,
-akşam bitti.</i>
+...sabah tıraş olmaya,
+akşam bitti.
 
 227
 00:14:59,182 --> 00:15:01,224
@@ -1096,8 +1094,8 @@ akşam bitti.</i>
 
 228
 00:15:01,225 --> 00:15:04,586
-<i>...çok uzun sürdü. Vallahi
-gece beraber kapattık dükkanı.</i>
+...çok uzun sürdü. Vallahi
+gece beraber kapattık dükkanı.
 
 229
 00:15:04,587 --> 00:15:07,407
@@ -1111,7 +1109,7 @@ dükkanı beraber kapattık vallahi.
 
 231
 00:15:12,423 --> 00:15:15,557
-<i>Ben de işte akşam misafirliğe gidiyoruz
+Ben de işte akşam misafirliğe gidiyoruz
 ya, ondan gittim. Yoksa gitmezdim.
 
 232
@@ -1409,7 +1407,7 @@ Lütfen Mecnun.
 
 293
 00:18:56,023 --> 00:18:58,070
-[MÜZİĞİN SESİNİ AÇAR]
+-
 
 294
 00:19:01,103 --> 00:19:04,911
@@ -1650,11 +1648,11 @@ Ne firması be?
 
 344
 00:22:12,800 --> 00:22:13,977
-<i>Yandı mı?</i>
+Yandı mı?
 
 345
 00:22:15,740 --> 00:22:16,916
-<i>Allah'tan kimseye bir şey olmadı.</i>
+Allah'tan kimseye bir şey olmadı.
 
 346
 00:22:17,836 --> 00:22:19,831
@@ -1681,12 +1679,12 @@ O işi niye bıraktın?
 
 351
 00:22:32,241 --> 00:22:33,892
-[BAĞIRMA SESİ]
+-
 
 352
 00:22:33,927 --> 00:22:37,228
-<i>Sekizinci katta olukları temizlerken,
-fuşt... Düştü.</i>
+Sekizinci katta olukları temizlerken,
+fuşt... Düştü.
 
 353
 00:22:38,288 --> 00:22:40,590
@@ -2028,26 +2026,26 @@ Bu... hep... ne... hep karış...
 
 425
 00:26:51,521 --> 00:26:55,427
-<i>#Lay, lay lay lay lay lay
-lay lay lay...</i>
+#Lay, lay lay lay lay lay
+lay lay lay...
 
 426
 00:26:55,428 --> 00:27:00,010
-<i>Lay, lay lay lay lay lay lay lay
-lay la la lay...</i>
+Lay, lay lay lay lay lay lay lay
+lay la la lay...
 
 427
 00:27:00,011 --> 00:27:03,026
-<i># Sev, çünkü sevmek en kolay #
+# Sev, çünkü sevmek en kolay #
 
 428
 00:27:03,027 --> 00:27:06,594
-<i>Lay, lay, lay, lay, lay,
-İskender abi.</i>
+Lay, lay, lay, lay, lay,
+İskender abi.
 
 429
 00:27:06,595 --> 00:27:07,595
-[ŞARKIYA DEVAM EDER]
+-
 
 430
 00:27:12,575 --> 00:27:13,688
@@ -2143,7 +2141,7 @@ Duruyor arabada.
 
 450
 00:28:15,085 --> 00:28:18,085
-[KAPI ZİLİ ÇALINIR]
+-
 
 451
 00:28:20,728 --> 00:28:22,767
@@ -2210,7 +2208,7 @@ Ne bu gürültü?
 
 465
 00:28:56,241 --> 00:28:57,445
-[MÜZİK BAŞLAR]
+-
 
 466
 00:28:57,959 --> 00:28:59,639
@@ -2242,7 +2240,7 @@ Baba.
 
 472
 00:29:17,096 --> 00:29:18,196
-<i>Bu kız çok güzel.
+Bu kız çok güzel.
 
 473
 00:29:18,734 --> 00:29:20,212
@@ -2561,12 +2559,11 @@ Ama hiç unutamazsın.
 
 542
 00:33:50,126 --> 00:33:53,126
-[Ferdi Tayfur - Olsan İçmez Miydin
-Benim Yerimde Çalar]
+-
 
 543
 00:34:08,455 --> 00:34:11,455
-[MÜZİK DEVAM EDER]
+-
 
 544
 00:34:29,583 --> 00:34:32,286
@@ -2580,68 +2577,68 @@ Ne diyorsun ya?
 
 546
 00:34:35,623 --> 00:34:39,354
-<i># Anlayan olmadı,
-gönül derdinden.</i>
+# Anlayan olmadı,
+gönül derdinden.
 
 547
 00:34:40,410 --> 00:34:44,182
-<i># Yıllarca koştum hep,
-aşkın peşinden.</i>
+# Yıllarca koştum hep,
+aşkın peşinden.
 
 548
 00:34:44,904 --> 00:34:48,974
-<i># Anlayan olmadı,
-gönül derdimden.</i>
+# Anlayan olmadı,
+gönül derdimden.
 
 549
 00:34:49,697 --> 00:34:53,705
-<i># Bir vefa görmedim
-sevdiklerimden.</i>
+# Bir vefa görmedim
+sevdiklerimden.
 
 550
 00:34:54,503 --> 00:34:58,777
-<i># Olsan içmez miydin,
-benim yerimde.</i>
+# Olsan içmez miydin,
+benim yerimde.
 
 551
 00:35:04,011 --> 00:35:08,265
-<i># Baharım solmadan,
-eskidi ömrüm.</i>
+# Baharım solmadan,
+eskidi ömrüm.
 
 552
 00:35:08,955 --> 00:35:13,084
-<i># Çıkmaz bir sokağa
-benzedi gönlüm.</i>
+# Çıkmaz bir sokağa
+benzedi gönlüm.
 
 553
 00:35:13,928 --> 00:35:18,160
-<i># Leyla'sı olmayan
-Mecnun'a döndüm.</i>
+# Leyla'sı olmayan
+Mecnun'a döndüm.
 
 554
 00:35:18,705 --> 00:35:22,682
-<i># Olsan içmez miydin
-benim yerimde.</i>
+# Olsan içmez miydin
+benim yerimde.
 
 555
 00:35:23,540 --> 00:35:27,586
-<i># Baharım solmadan
-eskidi ömrüm.</i>
+# Baharım solmadan
+eskidi ömrüm.
 
 556
 00:35:28,308 --> 00:35:32,589
-<i># Çıkmaz bir sokağa
-benzedi gönlüm.</i>
+# Çıkmaz bir sokağa
+benzedi gönlüm.
 
 557
 00:35:33,283 --> 00:35:37,468
-<i># Leyla'sı olmayan
-Mecnun'a döndüm.</i>
+# Leyla'sı olmayan
+Mecnun'a döndüm.
 
 558
 00:35:37,901 --> 00:35:42,143
-<i># Olsan içmez miydin
-benim yerimde.</i>
+# Olsan içmez miydin
+benim yerimde.
 
 559
 00:35:53,233 --> 00:35:54,923
@@ -2649,7 +2646,7 @@ Leyla!
 
 560
 00:36:00,046 --> 00:36:02,585
-[BAĞIRARAK UYANIR]
+-
 
 561
 00:36:03,460 --> 00:36:05,077
@@ -2700,7 +2697,7 @@ ananı görüyorum yanında.
 
 571
 00:36:31,170 --> 00:36:33,131
-[BAĞIRIR]
+-
 
 572
 00:36:33,313 --> 00:36:34,448
@@ -2763,22 +2760,22 @@ Merdane al, bir şey al. Bari bir terlik al.
 
 585
 00:37:07,622 --> 00:37:08,982
-[MÜZİK BAŞLAR]
+-
 
 586
 00:37:09,149 --> 00:37:11,571
-<i># Bulamadım beni
-candan seveni.</i>
+# Bulamadım beni
+candan seveni.
 
 587
 00:37:12,192 --> 00:37:16,260
-<i># Zamansız yitirdim
-hayat selini.</i>
+# Zamansız yitirdim
+hayat selini.
 
 588
 00:37:17,111 --> 00:37:21,167
-<i># Bulamadım beni
-candan seveni...</i>
+# Bulamadım beni
+candan seveni...
 
 589
 00:37:23,719 --> 00:37:28,454
@@ -2790,8 +2787,8 @@ Efendim?
 
 591
 00:37:32,413 --> 00:37:34,971
-<i>Olsan içmez miydin
-benim yer-</i>
+Olsan içmez miydin
+benim yer-
 
 592
 00:37:36,192 --> 00:37:40,581
@@ -3106,7 +3103,7 @@ Yani.
 
 660
 00:42:05,131 --> 00:42:08,136
-[HAREKETLİ MÜZİK ÇALAR]
+-
 
 661
 00:42:12,832 --> 00:42:14,086
@@ -3114,12 +3111,10 @@ Hayır!
 
 662
 00:42:22,159 --> 00:42:23,690
-[BAĞIRARAK]
 Hayır!
 
 663
 00:42:24,431 --> 00:42:26,056
-[BAĞIRARAK UYANIR]
 Hayır!
 
 664
@@ -3143,7 +3138,7 @@ Bak yine bağırıyor ya.
 
 668
 00:42:40,155 --> 00:42:43,155
-[BAĞIRIR]
+-
 
 669
 00:42:46,659 --> 00:42:47,961
@@ -4228,7 +4223,6 @@ Sağ olun ya.
 905
 00:57:43,363 --> 00:57:44,575
 Leyla!
-[BAĞIRIR]
 
 906
 00:58:10,820 --> 00:58:13,374
@@ -4439,7 +4433,7 @@ Allah rahmet eylesin ya.
 
 951
 01:01:28,529 --> 01:01:29,529
-[ÖKSÜRÜR]
+-
 
 952
 01:01:37,341 --> 01:01:38,624

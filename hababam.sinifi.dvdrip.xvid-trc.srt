@@ -296,8 +296,8 @@ Tamam, aferin oğlum.
 
 62
 00:04:25,007 --> 00:04:29,840
-<i>Canım Şabancığım. Benim tatlı sevgilim.
-Vahşi cazibene artık dayanamıyorum.</i>
+Canım Şabancığım. Benim tatlı sevgilim.
+Vahşi cazibene artık dayanamıyorum.
 
 63
 00:04:29,921 --> 00:04:32,000
@@ -306,8 +306,8 @@ Vahşi cazibene artık dayanamıyorum.</i>
 
 64
 00:04:32,400 --> 00:04:35,442
-<i>Şaban artık buluşalım.
-Bugün okuldan kaç.</i>
+Şaban artık buluşalım.
+Bugün okuldan kaç.
 
 65
 00:04:36,440 --> 00:04:39,440
@@ -355,12 +355,12 @@ Aferin otur.
 
 74
 00:05:14,480 --> 00:05:23,681
-<i>Şaban yakana da bir karanfil
-tak da seni tanıyabileyim.</i>
+Şaban yakana da bir karanfil
+tak da seni tanıyabileyim.
 
 75
 00:05:26,320 --> 00:05:28,280
-<i>Isırarak öperim.</i>
+Isırarak öperim.
 
 76
 00:05:29,240 --> 00:05:33,282
@@ -388,7 +388,6 @@ Terbiyesiz adam.
 
 81
 00:06:16,527 --> 00:06:20,437
-[HEP BERABER]
 Hababam! Hababam!
 Hababam! Hababam!
 
@@ -547,7 +546,7 @@ Nuri Bey de Fizik hocamız.
 
 114
 00:08:51,721 --> 00:08:53,721
-[CAM KIRILIR]
+-
 
 115
 00:08:55,807 --> 00:08:57,480
@@ -1033,7 +1032,6 @@ son sınıf edebiyat.
 
 215
 00:17:18,159 --> 00:17:19,719
-[HEP BERABER]
 Hooop. Güm!
 
 216
@@ -2295,7 +2293,6 @@ Söyleyin bakalım.
 
 487
 00:39:06,001 --> 00:39:09,840
-[HEP BERABER]
 Mefulü, mefailün, mefailü, feülü.
 
 488
@@ -2330,13 +2327,13 @@ Sessiz Gemi'yi Hümeyra okuyor.
 
 494
 00:39:32,401 --> 00:39:39,520
-<i># Bir çok giden
-memnun ki yerinden</i>
+# Bir çok giden
+memnun ki yerinden
 
 495
 00:39:39,681 --> 00:39:43,280
-<i># Çok seneler geçti.
-Çok seneler geçti.</i>
+# Çok seneler geçti.
+Çok seneler geçti.
 
 496
 00:39:43,361 --> 00:39:44,801
@@ -2580,8 +2577,8 @@ Dikkat! Hazır ol!
 
 548
 00:43:31,047 --> 00:43:40,864
-<i># Dağ başını duman almış gümüş dere
-durmaz akar. Güneş ufuktan şimdi doğar.</i>
+# Dağ başını duman almış gümüş dere
+durmaz akar. Güneş ufuktan şimdi doğar.
 
 549
 00:43:41,267 --> 00:43:45,090
@@ -2613,13 +2610,13 @@ Hazır ol! Uygun adım marş.
 
 555
 00:43:59,587 --> 00:44:07,108
-<i># Güneş ufuktan şimdi doğar,
-yürüyelim arkadaşlar.</i>
+# Güneş ufuktan şimdi doğar,
+yürüyelim arkadaşlar.
 
 556
 00:44:07,720 --> 00:44:14,609
-<i># Sesimizi yer gök su dinlesin,
-sert adımlarla her yer inlesin.</i>
+# Sesimizi yer gök su dinlesin,
+sert adımlarla her yer inlesin.
 
 557
 00:44:15,052 --> 00:44:16,665
@@ -2766,8 +2763,8 @@ gelecekti. Şimdi sap gibi kalmıştır.
 
 588
 00:46:19,435 --> 00:46:23,055
-<i>Hain kadın. Neden beni Taksim'de
-3 saat beklettin?</i>
+Hain kadın. Neden beni Taksim'de
+3 saat beklettin?
 
 589
 00:46:24,327 --> 00:46:27,484
@@ -2828,7 +2825,6 @@ Sen Hafize Anamız kulunu
 
 601
 00:47:51,355 --> 00:47:53,335
-[HEP BERABER]
 Amin.
 
 602
@@ -2839,7 +2835,7 @@ Kel Mahmut'un şerrinden bizi koru.
 603
 00:47:58,567 --> 00:48:04,006
 - Tez zamanda başımızdan def eyle yarabbi.
-- [HEP BERABER] Amin!
+- Amin!
 
 604
 00:48:04,647 --> 00:48:07,083
@@ -3327,7 +3323,6 @@ Orasını bana bırak sen.
 
 705
 00:56:40,000 --> 00:56:44,000
-[HEP BERABER]
 Hababam güm güm güm!
 
 706
@@ -3384,7 +3379,6 @@ ekibini davet ediyorum.
 
 717
 00:57:48,007 --> 00:57:52,843
-[HEP BERABER]
 Hababam güm güm güm.
 
 718
@@ -3749,7 +3743,6 @@ Bütün sınıfa 10 verdim.
 
 793
 01:03:25,476 --> 01:03:27,096
-[HEP BERABER]
 Sağ olun Hocam.
 
 794
@@ -3767,7 +3760,7 @@ Ama 4 virgül atlamışsın.
 
 797
 01:03:34,607 --> 01:03:37,680
-<i># Olmaz böyle şey, yoksa rüya mı?</i>
+# Olmaz böyle şey, yoksa rüya mı?
 
 798
 01:03:38,667 --> 01:03:43,081
@@ -4123,13 +4116,13 @@ Bana karşı mı geliyorsun?
 
 873
 01:09:13,987 --> 01:09:22,560
-<i># Çilli bom. Ah şimdi.
-Yarın olmaz şimdi. Hemen şimdi şimdi.</i>
+# Çilli bom. Ah şimdi.
+Yarın olmaz şimdi. Hemen şimdi şimdi.
 
 874
 01:09:23,120 --> 01:09:26,320
-<i># Yarın olmaz şimdi.
-Şimdi.</i>
+# Yarın olmaz şimdi.
+Şimdi.
 
 875
 01:09:27,507 --> 01:09:31,209
@@ -4554,42 +4547,42 @@ Eurovizyon şarkı yarışması 1.'si, Cici Kızlar.
 
 962
 01:15:34,400 --> 01:15:36,552
-[MÜZİK BAŞLAR]
+-
 
 963
 01:15:41,400 --> 01:15:45,000
-<i># La la la la la la la
-La la la la la la la</i>
+# La la la la la la la
+La la la la la la la
 
 964
 01:15:45,161 --> 01:15:48,760
-<i># La la la la la la la
-La la la la la la la</i>
+# La la la la la la la
+La la la la la la la
 
 965
 01:16:02,280 --> 01:16:10,395
-<i># Ah kalbim ben senden çok çektim
-söyle nedir bu halin? Vallahi sen delisin.</i>
+# Ah kalbim ben senden çok çektim
+söyle nedir bu halin? Vallahi sen delisin.
 
 966
 01:16:11,312 --> 01:16:19,396
-<i># Olmaz ki, böyle çarpılmaz ki,
-çıldırmışsın sanki, Vallahi sen delisin.</i>
+# Olmaz ki, böyle çarpılmaz ki,
+çıldırmışsın sanki, Vallahi sen delisin.
 
 967
 01:16:19,400 --> 01:16:27,932
-<i># Ne olmuş birden gördüysen onu
-Ömründe gördüğün ilk erkek o mu?</i>
+# Ne olmuş birden gördüysen onu
+Ömründe gördüğün ilk erkek o mu?
 
 968
 01:16:28,002 --> 01:16:40,400
-<i># Aman sus sus duymasınlar sesini
-Göğsümden koparıp atarım seni. Delisin!</i>
+# Aman sus sus duymasınlar sesini
+Göğsümden koparıp atarım seni. Delisin!
 
 969
 01:17:02,000 --> 01:17:05,600
-<i># La la la la la la la
-La la la la la la la</i>
+# La la la la la la la
+La la la la la la la
 
 970
 01:17:19,202 --> 01:17:22,835
@@ -4608,32 +4601,32 @@ Ali Rıza Binboğa değil Şaban İnek.
 
 973
 01:17:46,660 --> 01:17:56,542
-<i># Özgürlük ve barış, tüm insanların
-özlemi olacak yarınlarda</i>
+# Özgürlük ve barış, tüm insanların
+özlemi olacak yarınlarda
 
 974
 01:17:57,660 --> 01:18:06,758
-<i># Anam bacım kardeşim eşim dostum
-yandaşım, daha da mutluyuz yarınlarda</i>
+# Anam bacım kardeşim eşim dostum
+yandaşım, daha da mutluyuz yarınlarda
 
 975
 01:18:07,350 --> 01:18:16,309
-<i># Anam bacım kardeşim eşim dostum
-yandaşım, daha da mutluyuz yarınlarda</i>
+# Anam bacım kardeşim eşim dostum
+yandaşım, daha da mutluyuz yarınlarda
 
 976
 01:18:17,006 --> 01:18:29,080
-<i># Ağlamak yok. Gülmek var.
-Düşmanlık yok. Dostluk var.</i>
+# Ağlamak yok. Gülmek var.
+Düşmanlık yok. Dostluk var.
 
 977
 01:18:29,201 --> 01:18:32,960
-<i># Yarınlarda yarınlarda, seni sevmek var.</i>
+# Yarınlarda yarınlarda, seni sevmek var.
 
 978
 01:18:33,858 --> 01:18:38,250
-<i># Yarınlarda, yarınlarda,
-mutlu günler var.</i>
+# Yarınlarda, yarınlarda,
+mutlu günler var.
 
 979
 01:18:38,799 --> 01:18:41,588
@@ -4646,77 +4639,77 @@ Hababam Vokal Grubu!
 
 981
 01:19:01,530 --> 01:19:05,200
-<i># Çilli bom bom bom.
-Çilli bom bom bom.</i>
+# Çilli bom bom bom.
+Çilli bom bom bom.
 
 982
 01:19:05,281 --> 01:19:10,600
-<i># Ah! Şimdi yarın olmaz şimdi
-hemen şimdi şimdi.</i>
+# Ah! Şimdi yarın olmaz şimdi
+hemen şimdi şimdi.
 
 983
 01:19:10,640 --> 01:19:13,200
-<i># Yarın olmaz şimdi. Şimdi.</i>
+# Yarın olmaz şimdi. Şimdi.
 
 984
 01:19:13,241 --> 01:19:16,400
-<i># Çilli bom bom bom.
-Çilli bom bom bom.</i>
+# Çilli bom bom bom.
+Çilli bom bom bom.
 
 985
 01:19:16,700 --> 01:19:19,920
-<i># Bakarsın yarın buralarda olamam</i>
+# Bakarsın yarın buralarda olamam
 
 986
 01:19:20,321 --> 01:19:23,480
-<i># Bakarsın yarın sözümde duramam</i>
+# Bakarsın yarın sözümde duramam
 
 987
 01:19:24,001 --> 01:19:27,200
-<i># Belki de gelirim seni arar bulamam</i>
+# Belki de gelirim seni arar bulamam
 
 988
 01:19:27,401 --> 01:19:29,800
-<i># Çilli bom bom bom.
-Çilli bom bom bom.</i>
+# Çilli bom bom bom.
+Çilli bom bom bom.
 
 989
 01:19:29,880 --> 01:19:34,520
-<i># Ah! Şimdi yarın olmaz şimdi
-hemen şimdi şimdi.</i>
+# Ah! Şimdi yarın olmaz şimdi
+hemen şimdi şimdi.
 
 990
 01:19:34,840 --> 01:19:37,640
-<i># Yarın olmaz şimdi. Şimdi.</i>
+# Yarın olmaz şimdi. Şimdi.
 
 991
 01:19:38,000 --> 01:19:40,600
-<i># Çilli bom bom bom.
-Çilli bom bom bom.</i>
+# Çilli bom bom bom.
+Çilli bom bom bom.
 
 992
 01:19:40,722 --> 01:19:46,672
-<i># Bugünkü işini yarına bırakma
-fırsat bu fırsattır sen kararsız olma.</i>
+# Bugünkü işini yarına bırakma
+fırsat bu fırsattır sen kararsız olma.
 
 993
 01:19:46,793 --> 01:19:50,756
-<i># Nasıl dönüyor dünya
-bak hayat çok kısa.</i>
+# Nasıl dönüyor dünya
+bak hayat çok kısa.
 
 994
 01:19:50,797 --> 01:19:53,157
-<i># Çilli bom bom bom.
-Çilli bom.</i>
+# Çilli bom bom bom.
+Çilli bom.
 
 995
 01:19:53,200 --> 01:19:57,966
-<i># Ah! Şimdi yarın olmaz şimdi
-hemen şimdi şimdi!</i>
+# Ah! Şimdi yarın olmaz şimdi
+hemen şimdi şimdi!
 
 996
 01:19:58,087 --> 01:20:00,400
-<i># Yarın olmaz şimdi. Şimdi.</i>
+# Yarın olmaz şimdi. Şimdi.
 
 997
 01:20:00,460 --> 01:20:02,236

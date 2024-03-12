@@ -18,6 +18,7 @@ import nltk
 from sys import maxsize
 import whisper
 from pydub import AudioSegment
+from torchmetrics.functional.text import word_error_rate, match_error_rate, word_information_lost, char_error_rate
 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from transformers import BartTokenizer, BartForConditionalGeneration
@@ -75,6 +76,13 @@ def preprocess(raw_text):
 
     return words
 
+def preprocess_sentences(raw_text):
+
+    letters_only_text = re.sub("[^a-zA-Z]", " ", raw_text)
+    words = letters_only_text.lower()
+
+    return words
+
 def chunks_video(filename,clen:int=30):
     print(f'Chunk length: {clen}')
     vid = AudioSegment.from_file(filename,filename[-3:])
@@ -125,8 +133,7 @@ class TTS():
         chunk_len = None
         chunk_files = []
         subtitle_text = ''
-        modelw = whisper.load_model("tiny").to('cuda')
-        print(modelw.device)
+        modelw = whisper.load_model("medium")
         subs_objs = []
 
         cap = cv2.VideoCapture(filename)
@@ -142,7 +149,7 @@ class TTS():
             print("Error opening video stream or file")
         subs = []
         chunk_audio =[]
-        chunks = True
+        chunks = False
         if chunks:         
             folder_chunks, frames_interval = chunks_video(filename,clen=30)
             frames_interval = (frames_interval//1000)*fps
@@ -181,9 +188,7 @@ class TTS():
                     # print(f'Index segment: {chunk_audio[index_segment]}')
 
                     t0 = time.time()
-                    print(modelw.device)
                     result = modelw.transcribe(chunk_audio[index_segment],language=languag)
-                    print(modelw.device)
                     #print(result)
                     t1 = time.time() - t0
                     times.append(t1)
@@ -274,7 +279,7 @@ class TTS():
             print('Finished downloading.')
         folder_chunks = None
         chunk_files = []
-        modelw = whisper.load_model("medium")
+        modelw = whisper.load_model("large")
         subs_objs = []
         chunk_audio =[]
         if chunk_length>0:         
@@ -294,7 +299,7 @@ class TTS():
         all_results = []
         times = []
         subs_text = ''
-        for index_segment in tqdm(range(len(chunk_audio))):
+        for index_segment in range(len(chunk_audio)):
             t0 = time.time()
             result = modelw.transcribe(chunk_audio[index_segment],language=language)
             #print(result)
@@ -669,3 +674,20 @@ class SummarizerQwen():
         outputs = self.model.generate(**input_ids,max_new_tokens=500)
         print('###########################')
         print(self.tokenizer.decode(outputs[0]))
+
+
+def compare_srt_files(file_prediction:str,file_groundtruth:str):
+    body_pred = get_text_from_srt(filename=file_prediction).lower().replace("\n", " ")
+    body_gt = get_text_from_srt(filename=file_groundtruth).lower().replace("\n", " ")
+
+    wer = word_error_rate(preds=body_pred,target=body_gt)
+    mer = match_error_rate(preds=body_pred,target=body_gt)
+    wil = word_information_lost(preds=body_pred,target=body_gt)
+    cer = char_error_rate(preds=body_pred,target=body_gt)
+
+    print(f'Word Error Rate:\t{wer}')
+    print(f'Match Error Rate:\t{mer}')
+    print(f'Word Information Lost:\t{wil}')
+    print(f'Character Error Rate:\t{cer}')
+
+    return [wer,mer,wil,cer]
