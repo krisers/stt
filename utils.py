@@ -23,6 +23,7 @@ from torchmetrics.functional.text import word_error_rate, match_error_rate, word
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from transformers import BartTokenizer, BartForConditionalGeneration
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from torch import zeros
 
 TOKEN = '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'
 
@@ -677,13 +678,29 @@ class SummarizerQwen():
 
 
 def compare_srt_files(file_prediction:str,file_groundtruth:str):
-    body_pred = get_text_from_srt(filename=file_prediction).lower().replace("\n", " ")
-    body_gt = get_text_from_srt(filename=file_groundtruth).lower().replace("\n", " ")
+    body_pred_whole = get_text_from_srt(filename=file_prediction).lower().replace("\n", " ")
+    body_gt_whole = get_text_from_srt(filename=file_groundtruth).lower().replace("\n", " ")
+    interval = 1500
+    print(len(body_pred_whole))
+    print(len(body_gt_whole))
+    ceil = len(max(body_pred_whole,body_gt_whole))//interval +1
+    WER = zeros(ceil)
+    MER = zeros(ceil)
+    WIL = zeros(ceil)
+    CER = zeros(ceil)
+    for i in range(ceil):
+        body_pred = body_pred_whole[i*interval:(i+1)*interval]
+        body_gt  =  body_gt_whole[i*interval:(i+1)*interval]
 
-    wer = word_error_rate(preds=body_pred,target=body_gt)
-    mer = match_error_rate(preds=body_pred,target=body_gt)
-    wil = word_information_lost(preds=body_pred,target=body_gt)
-    cer = char_error_rate(preds=body_pred,target=body_gt)
+        WER[i] = word_error_rate(preds=body_pred,target=body_gt)
+        MER[i] =match_error_rate(preds=body_pred,target=body_gt)
+        WIL[i] = word_information_lost(preds=body_pred,target=body_gt)
+        CER[i] = char_error_rate(preds=body_pred,target=body_gt)
+    
+    wer = WER.mean()
+    mer = MER.mean()
+    wil = WIL.mean()
+    cer = CER.mean()
 
     print(f'Word Error Rate:\t{wer}')
     print(f'Match Error Rate:\t{mer}')
