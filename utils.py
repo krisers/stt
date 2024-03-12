@@ -8,6 +8,7 @@ import shutil
 from PIL import Image, ImageDraw, ImageFont
 from subprocess import run, CalledProcessError
 from datetime import timedelta
+from tqdm import tqdm
 from srt import Subtitle, compose,parse
 import moviepy.editor as mp
 import json 
@@ -124,7 +125,8 @@ class TTS():
         chunk_len = None
         chunk_files = []
         subtitle_text = ''
-        modelw = whisper.load_model("medium")
+        modelw = whisper.load_model("tiny").to('cuda')
+        print(modelw.device)
         subs_objs = []
 
         cap = cv2.VideoCapture(filename)
@@ -140,7 +142,7 @@ class TTS():
             print("Error opening video stream or file")
         subs = []
         chunk_audio =[]
-        chunks = False
+        chunks = True
         if chunks:         
             folder_chunks, frames_interval = chunks_video(filename,clen=30)
             frames_interval = (frames_interval//1000)*fps
@@ -179,7 +181,9 @@ class TTS():
                     # print(f'Index segment: {chunk_audio[index_segment]}')
 
                     t0 = time.time()
+                    print(modelw.device)
                     result = modelw.transcribe(chunk_audio[index_segment],language=languag)
+                    print(modelw.device)
                     #print(result)
                     t1 = time.time() - t0
                     times.append(t1)
@@ -270,7 +274,7 @@ class TTS():
             print('Finished downloading.')
         folder_chunks = None
         chunk_files = []
-        modelw = whisper.load_model("large")
+        modelw = whisper.load_model("medium")
         subs_objs = []
         chunk_audio =[]
         if chunk_length>0:         
@@ -290,7 +294,7 @@ class TTS():
         all_results = []
         times = []
         subs_text = ''
-        for index_segment in range(len(chunk_audio)):
+        for index_segment in tqdm(range(len(chunk_audio))):
             t0 = time.time()
             result = modelw.transcribe(chunk_audio[index_segment],language=language)
             #print(result)

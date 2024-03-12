@@ -1,4 +1,5 @@
 import argparse
+import time 
 from utils import TTS
 
 if __name__ == "__main__":
@@ -42,8 +43,10 @@ if __name__ == "__main__":
         if source_language!='unknown':
             stt.translator.set_source_language (source_language)
         stt.translator.set_target_language (target_language)
-
+    t0 = time.time()
     stt.subtitles_video(filename=video_filename,
-                        is_url=is_url,
+                        is_url=False,
                         url=url,
-                        language=transcription_language)
+                        language=transcription_language,
+                        chunk_length=300)
+    print(f'Video transcribed in:/t{time.time()- t0} s ')

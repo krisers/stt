@@ -1,472 +1,464 @@
 1
-00:00:00,000 --> 00:00:03,000
-Don't forget, I went out for dinner.
+00:00:00,000 --> 00:00:03,600
+ Unutma yemek yemek için çıktın arabamın olduğu tarafa hiç bakmadın.
 
 2
-00:00:03,000 --> 00:00:04,000
-What was the street you were going to?
+00:00:03,600 --> 00:00:04,720
+ Hangi sokaktan ilerdin?
 
 3
-00:00:04,000 --> 00:00:05,000
-Food Street.
+00:00:04,720 --> 00:00:05,520
+ Emek sokak.
 
 4
-00:00:05,000 --> 00:00:06,000
-Good. Which soup shop did you go to?
+00:00:05,520 --> 00:00:07,040
+ Güzel hangi çorbacıya gittin?
 
 5
-00:00:06,000 --> 00:00:07,000
-It's a lot.
+00:00:07,040 --> 00:00:07,680
+ Bol köpçe.
 
 6
-00:00:07,000 --> 00:00:08,000
-Good, you puppy.
+00:00:07,680 --> 00:00:11,040
+ Güzel bol köpçe çorbacısına iki tabak işkembe içtin acılık tamam mı?
 
 7
-00:00:08,000 --> 00:00:10,000
-You had two plates of soup for the soup shop.
+00:00:11,040 --> 00:00:12,400
+ Geliyor benim kılıç.
 
 8
-00:00:10,000 --> 00:00:11,000
-I'm going to get it.
+00:00:12,400 --> 00:00:13,440
+ Kalk.
 
 9
-00:00:11,000 --> 00:00:12,000
-My turn is coming.
+00:00:23,440 --> 00:00:24,480
+ Niye yaptın?
 
 10
-00:00:12,000 --> 00:00:13,000
-Get up! Get up!
+00:00:24,480 --> 00:00:25,600
+ He?
 
 11
-00:00:23,000 --> 00:00:24,000
-Why did you do it?
+00:00:28,240 --> 00:00:29,760
+ Karışma bir dakika.
 
 12
-00:00:28,000 --> 00:00:29,000
-Don't mess with me.
+00:00:29,920 --> 00:00:31,520
+ Niye öldürdün oğlumu?
 
 13
-00:00:30,000 --> 00:00:31,000
-Why did you kill my son?
+00:00:31,520 --> 00:00:33,760
+ Henüz kandanmış bir durum yok lütfen.
 
 14
-00:00:31,000 --> 00:00:33,000
-There is no scandal yet.
+00:00:33,760 --> 00:00:35,280
+ Burada ne yeki?
 
 15
-00:00:34,000 --> 00:00:35,000
-What is it here?
+00:00:35,280 --> 00:00:36,000
+ He?
 
 16
-00:00:36,000 --> 00:00:37,000
-Why?
+00:00:36,000 --> 00:00:36,800
+ Niye?
 
 17
-00:00:37,000 --> 00:00:38,000
-Mr. Suat, please.
+00:00:36,800 --> 00:00:37,680
+ Suat Bey buyurun.
 
 18
-00:00:38,000 --> 00:00:39,000
-You are a murderer.
+00:00:37,680 --> 00:00:38,160
+ Katilsin.
 
 19
-00:00:39,000 --> 00:00:40,000
-You are a murderer.
+00:00:38,160 --> 00:00:39,680
+ Katil işte katil.
 
 20
-00:00:40,000 --> 00:00:41,000
-Please don't make any trouble.
+00:00:39,680 --> 00:00:40,960
+ Olay çıkmasın buyurun.
 
 21
-00:00:56,000 --> 00:00:57,000
-Yes, sir, please.
+00:00:56,000 --> 00:00:57,600
+ Evet Sayın Savcı'm buyurun.
 
 22
-00:00:57,000 --> 00:00:58,000
-- I know.
+00:00:58,320 --> 00:01:04,480
+ Sayın Hakim dosyada incelediğiniz üzerine suçu işleme şüphesi yüksek olan şahsın tutuklu yargılamasını talep ediyoruz.
 
 23
-00:00:58,000 --> 00:01:00,000
-Mr. Sergeant, as you have examined in the file,
+00:01:04,480 --> 00:01:06,880
+ Yapmayın Sayın Savcı'm yüksek ne demek?
 
 24
-00:01:00,000 --> 00:01:04,000
-We demand that the person who has the highest suspicion of committing the crime be sentenced to prison.
+00:01:06,880 --> 00:01:08,640
+ Tutuklu yargılamak ne?
 
 25
-00:01:04,000 --> 00:01:08,000
-Mr. Sergeant, what does it mean to be sentenced to prison?
+00:01:08,640 --> 00:01:12,160
+ Daha öncesinde hiçbir suçu bulunmayan bir insandan bahsediyoruz burada.
 
 26
-00:01:08,000 --> 00:01:12,000
-We're talking about a person who has never committed any crime before.
+00:01:12,160 --> 00:01:14,560
+ Müsaade almadan karşılıklı konuşmayalım.
 
 27
-00:01:12,000 --> 00:01:14,000
-Let's not talk in front of each other without permission.
+00:01:14,560 --> 00:01:16,080
+ Lütfen müsaade.
 
 28
-00:01:14,000 --> 00:01:15,000
-Please, excuse me.
+00:01:17,440 --> 00:01:18,800
+ Sayın Hakim.
 
 29
-00:01:17,000 --> 00:01:18,000
-Mr. Sergeant,
+00:01:18,800 --> 00:01:22,080
+ Çağdaş muhtar İstanbul'da ikamet etmemektedir.
 
 30
-00:01:18,000 --> 00:01:21,000
-the late Muhtar is not staying in Istanbul.
+00:01:22,080 --> 00:01:25,920
+ Kendisi bir haftadır iş bulmak için burada bulunduğunu söylemiş.
 
 31
-00:01:21,000 --> 00:01:25,000
-He said he was here to find a job for a week,
+00:01:26,000 --> 00:01:28,960
+ Ancak herhangi bir iş başvurusu tespit edilmemiştir.
 
 32
-00:01:25,000 --> 00:01:28,000
-but no job application has been identified.
+00:01:28,960 --> 00:01:31,760
+ Ayrıca memleketine dönme ihtimali de yüksektir.
 
 33
-00:01:28,000 --> 00:01:31,000
-Also, he is likely to return to his country.
+00:01:31,760 --> 00:01:37,120
+ Gaziantep'te ülkemiz sınırları içerisinde olduğuna göre oraya gitmesinin nasıl bir sakıncası olabilir?
 
 34
-00:01:31,000 --> 00:01:34,000
-Since our country is within the borders of Gaziantep,
+00:01:37,120 --> 00:01:38,720
+ Sorarım size.
 
 35
-00:01:34,000 --> 00:01:36,000
-How can he go there?
+00:01:38,720 --> 00:01:40,160
+ Yani müsaadenizle.
 
 36
-00:01:36,000 --> 00:01:39,000
-I'd like to ask you, with your permission.
+00:01:41,120 --> 00:01:43,280
+ Yalan beyan da bulundu.
 
 37
-00:01:40,000 --> 00:01:42,000
-He lied.
+00:01:43,280 --> 00:01:47,200
+ Aracın çalındığını, kendisinin de otelden çıkmadığını söyledi.
 
 38
-00:01:42,000 --> 00:01:46,000
-He said that the vehicle was stolen and he didn't leave the hotel.
+00:01:47,200 --> 00:01:52,720
+ Ancak tam da cinayet saatinden önce aracın PTS kaydına uygun bir şekilde ilerlediği...
 
 39
-00:01:46,000 --> 00:01:50,000
-However, he said that he had already made a proper move on the PTS record
+00:01:52,800 --> 00:01:57,520
+ ...ve olay yerine varmasına yetecek süre öncesinde otelden çıktığı tespit edildi.
 
 40
-00:01:50,000 --> 00:01:57,000
-And that he left the hotel before the time was enough for him to return to the hotel.
+00:01:57,520 --> 00:01:58,720
+ Acıkmış.
 
 41
-00:01:57,000 --> 00:01:59,000
-He was in pain.
+00:01:58,720 --> 00:02:00,720
+ Emek sokaktı.
 
 42
-00:01:59,000 --> 00:02:04,000
-He didn't realize that he was being stolen and that he had never looked at the car.
+00:02:00,000 --> 00:02:04,040
+ ...ilerleyip araba tarafına da hiç bakmamış, yani çalındığını fark etmemiş.
 
 43
-00:02:04,000 --> 00:02:08,000
-Then he went to the soup shop and drank two plates of drink.
+00:02:04,120 --> 00:02:07,800
+ Sonra bol kepçe çorbacısına gidip iki tabak işkembe içmiş.
 
 44
-00:02:08,000 --> 00:02:10,000
-He was in pain.
+00:02:07,880 --> 00:02:09,200
+ Hem de bol acılı.
 
 45
-00:02:10,000 --> 00:02:13,000
-Mr. Judge, I just sent a copy of your pencil.
+00:02:09,840 --> 00:02:13,040
+ Sayın Hakim, az önce kalemimize bir mobese görünüsü ulaştırdım.
 
 46
-00:02:13,000 --> 00:02:17,000
-It's fixed with the images he's been looking for.
+00:02:13,280 --> 00:02:17,320
+ Kendisinin Ümraniye'ye doğru araştı olduğu görüntülerle sabittir.
 
 47
-00:02:17,000 --> 00:02:19,000
-I'd like to make a statement with your permission.
+00:02:17,400 --> 00:02:18,880
+ Müsaadenizle belirtmek isterim.
 
 48
-00:02:19,000 --> 00:02:21,000
-We don't know anything, Mr. Judge.
+00:02:18,960 --> 00:02:20,840
+ Bizim haberimiz yok Sayın Hakim.
 
 49
-00:02:21,000 --> 00:02:24,000
-Because Mr. Prosecutor is persistently hiding information from us
+00:02:20,920 --> 00:02:23,720
+ Çünkü Savcı Bey ısrarla bizden bilgileri saklamakta...
 
 50
-00:02:24,000 --> 00:02:26,000
-And putting a delay to the file and the file.
+00:02:23,800 --> 00:02:25,960
+ ...dosya ve Uyop'a geç koymaktadır.
 
 51
-00:02:26,000 --> 00:02:28,000
-You can be in charge of this, Ms. Lawyer.
+00:02:26,040 --> 00:02:28,240
+ Bu konuda şikayette bulunabilirsiniz avukat hanım.
 
 52
-00:02:28,000 --> 00:02:32,000
-The DEAL armed forces have just taken over and I brought it.
+00:02:28,400 --> 00:02:31,800
+ Delil kolluk kuvvetleri tarafından yeni ele geçti, ben de getirdim.
 
 53
-00:02:32,000 --> 00:02:33,000
-Is there anything wrong, Mr. Judge?
+00:02:31,880 --> 00:02:33,240
+ Yanlışın var mı Sayın Hakim?
 
 54
-00:02:33,000 --> 00:02:35,000
-No, Mr. Prosecutor. I'm not going to tell you.
+00:02:33,320 --> 00:02:35,120
+ Estağfurullah Sayın Sarcı'm.
 
 55
-00:02:35,000 --> 00:02:37,000
-The method is appropriate.
+00:02:35,200 --> 00:02:36,600
+ Usule uygun.
 
 56
-00:02:37,000 --> 00:02:41,000
-Mr. Judge, look, Maktul and Shuperin have no common link.
+00:02:37,520 --> 00:02:41,520
+ Sayın Hakim bakın, Maktul'le Şüpheli'nin herhangi bir ortak bağı yoktur.
 
 57
-00:02:41,000 --> 00:02:45,000
-My client didn't even come to Istanbul a week ago.
+00:02:41,600 --> 00:02:44,760
+ Müvekkilim İstanbul'a bir hafta öncesine kadar gelmemiştir bile.
 
 58
-00:02:45,000 --> 00:02:49,000
-They don't follow any media, they haven't mailed each other,
+00:02:44,840 --> 00:02:47,360
+ Yani herhangi bir mecadan takipleşmemektedir.
 
 59
-00:02:49,000 --> 00:02:50,000
-They don't even have any friends.
+00:02:47,440 --> 00:02:50,160
+ Birbirlerine mail atmamışlardır, ortak arkadaşları bile yok.
 
 60
-00:02:50,000 --> 00:02:53,000
-I wish you had shared this information with us, Ms. Lawyer.
+00:02:50,240 --> 00:02:52,720
+ Bu bilgileri keşke bizimle de paylaşsaydınız avukat hanım.
 
 61
-00:02:53,000 --> 00:02:55,000
-You should have asked for an examination.
+00:02:52,800 --> 00:02:54,720
+ Bir inceleme talebinde bulunsaydınız.
 
 62
-00:02:55,000 --> 00:02:56,000
-It's a long story now.
+00:02:54,800 --> 00:02:56,120
+ Lafta kaldı şimdi.
 
 63
-00:02:56,000 --> 00:02:58,000
-Anyway, the experience may be lacking.
+00:02:56,200 --> 00:02:58,160
+ Neyse, tecrübe eksikliği olabilir.
 
 64
-00:02:58,000 --> 00:03:02,000
-Mr. Judge, there is no reason for my client to be arrested.
+00:02:58,240 --> 00:03:02,480
+ Sayın Hakim, müvekkilimin tutuklanması için herhangi bir sebep yoktur.
 
 65
-00:03:02,000 --> 00:03:05,000
-We're asking for the files to be examined.
+00:03:02,560 --> 00:03:05,280
+ Dosyaların incelenmesi için talebimiz bulunmaktadır.
 
 66
-00:03:05,000 --> 00:03:10,000
-Also, if Maktul and Shuperin came to the side, please examine the HTS records.
+00:03:05,360 --> 00:03:07,920
+ Ayrıca Maktul ve Şüpheli yan yana geldiyse...
 
 67
-00:03:10,000 --> 00:03:13,000
-Of course, I will examine them with permission.
+00:03:08,000 --> 00:03:10,200
+ ...HTS kayıtları incelensin lütfen.
 
 68
-00:03:13,000 --> 00:03:16,000
-Of course, I will examine them with your permission.
+00:03:10,280 --> 00:03:13,040
+ Tabii ki, müsaademle incelensin.
 
 69
-00:03:16,000 --> 00:03:18,000
-Then I will ask you, Mr. Prosecutor,
+00:03:13,120 --> 00:03:15,880
+ Tabii ki müsaadenizle incelensin.
 
 70
-00:03:18,000 --> 00:03:22,000
-Why did Mr. Peer kill a young man he didn't know?
+00:03:15,960 --> 00:03:18,360
+ O zaman sorarım size Sayın Sarcı'm...
 
 71
-00:03:22,000 --> 00:03:27,000
-As you just saw, my client is not drinking two plates of soup
+00:03:18,440 --> 00:03:22,240
+ ...Çağdaş Bey neden hiç tanımadığı gencecik birini öldürsün?
 
 72
-00:03:27,000 --> 00:03:31,000
-and is looking for Umraniye.
+00:03:22,320 --> 00:03:24,880
+ Sayın Hakim, demin sizin de gördüğünüz gibi...
 
 73
-00:03:31,000 --> 00:03:35,000
-While he is trying to lie and to deceive justice,
+00:03:24,960 --> 00:03:27,120
+ ...şahsın iki tabak çorba içmediği...
 
 74
-00:03:35,000 --> 00:03:39,000
-which is what this lie is trying to scare me,
+00:03:27,280 --> 00:03:30,800
+ ...ve Ümraniye'ye doğru araştı olduğu görüntülerle sabittir.
 
 75
-00:03:39,000 --> 00:03:43,000
-I'm sure that his lawyer will help him escape.
+00:03:30,880 --> 00:03:35,600
+ Ortada böylesine yalan söylemeye ve adaleti yanıltmaya çabu olduğu aşik erken...
 
 76
-00:03:45,000 --> 00:03:48,000
-It's up to you, Mr. Judge.
+00:03:35,680 --> 00:03:39,000
+ ...ki bu yalan söyleme zihniyeti şahsen beni ürkütmekte...
 
 77
-00:03:59,000 --> 00:04:01,000
-What was that, Mr. Prosecutor?
+00:03:39,080 --> 00:03:43,120
+ ...avukatının da yardımıyla kaçmaya kadar varacağın şüphesi doğurmaktadır.
 
 78
-00:04:01,000 --> 00:04:03,000
-It's a letter from the lawyer.
+00:03:45,600 --> 00:03:47,680
+ Takdir sizin Sayın Hakim.
 
 79
-00:04:03,000 --> 00:04:04,000
-And a letter from the court.
+00:03:48,120 --> 00:03:49,120
+ ?
 
 80
-00:04:04,000 --> 00:04:07,000
-Where was that letter when they said they were going to escape together?
+00:03:49,200 --> 00:03:50,200
+ ?
 
 81
-00:04:07,000 --> 00:04:08,000
-You may leave.
+00:03:58,280 --> 00:03:59,280
+ ?
 
 82
-00:04:08,000 --> 00:04:11,000
-No, I think the lawyer is strong enough
+00:03:59,360 --> 00:04:00,120
+ Neydi bu?
 
 83
-00:04:11,000 --> 00:04:13,000
-to not be able to slander the prosecutor.
+00:04:00,000 --> 00:04:01,520
+ Sayın savcı.
 
 84
-00:04:13,000 --> 00:04:15,000
-May I learn?
+00:04:01,600 --> 00:04:04,440
+ Üslup avukat. Adap da.
 
 85
-00:04:15,000 --> 00:04:17,000
-I knew there was no camera in that beautiful room.
+00:04:04,520 --> 00:04:07,800
+ Hayır, beraber kaçacaklarca derken neredeydi acaba o üslup?
 
 86
-00:04:17,000 --> 00:04:19,000
-Even your soup maker was there.
+00:04:07,880 --> 00:04:08,800
+ Çıkabilirsiniz.
 
 87
-00:04:19,000 --> 00:04:21,000
-Your client was the first to come to Istanbul.
+00:04:08,880 --> 00:04:12,920
+ Hayır, koskoca savcı iftira atamayacağına göre dayanağı sağlamdır diye düşünüyorum.
 
 88
-00:04:21,000 --> 00:04:23,000
-You have the details well-designed,
+00:04:13,000 --> 00:04:14,320
+ Öğrenebilir miyim?
 
 89
-00:04:23,000 --> 00:04:26,000
-But don't forget that the real lie always comes true.
+00:04:15,360 --> 00:04:17,680
+ O güzel yatta kamera olmadığını biliyordum.
 
 90
-00:04:26,000 --> 00:04:30,000
-Your assumptions will only come true if you prove them.
+00:04:17,760 --> 00:04:21,480
+ Hatta çorbacının orada da müvekkiliniz İstanbul'a ilk kez gelmişti.
 
 91
-00:04:30,000 --> 00:04:31,000
-You may leave.
+00:04:21,560 --> 00:04:23,600
+ Detayları da ona göre güzelce bezedin.
 
 92
-00:04:31,000 --> 00:04:34,000
-You know that the next trial will be released, right?
+00:04:23,680 --> 00:04:26,800
+ Ama unutmayınız ki gerçek yalanı her zaman yutar.
 
 93
-00:04:34,000 --> 00:04:36,000
-No, he doesn't even know the deceased person.
+00:04:26,840 --> 00:04:30,160
+ Bu sanrılarınız ancak ispatlarsanız gerçek olur.
 
 94
-00:04:36,000 --> 00:04:37,000
-Then why was he there?
+00:04:30,240 --> 00:04:31,680
+ Buyurun çıkabilirsiniz.
 
 95
-00:04:37,000 --> 00:04:40,000
-Maybe he didn't want anyone to know.
+00:04:31,760 --> 00:04:34,680
+ Bir sonraki duruşmaya serbest bırakılacak biliyorsunuz değil mi?
 
 96
-00:04:40,000 --> 00:04:42,000
-He did something shameful.
+00:04:34,760 --> 00:04:36,520
+ Hayır, o ölen şahsı tanımıyor bile.
 
 97
-00:04:42,000 --> 00:04:44,000
-Maybe it was a crime.
+00:04:36,600 --> 00:04:37,880
+ O zaman niye oradaydı?
 
 98
-00:04:44,000 --> 00:04:47,000
-Maybe he was trying to cover up a murder.
+00:04:37,960 --> 00:04:40,680
+ Belki kimsenin bilmesini istemediği bir şey.
 
 99
-00:04:47,000 --> 00:04:48,000
-What do you think, Mr. Prosecutor?
+00:04:40,760 --> 00:04:43,120
+ Utanılacak bir şey yaptı yani.
 
 100
-00:04:48,000 --> 00:04:51,000
-Secrets are not always shameful, Mr. Prosecutor.
+00:04:43,200 --> 00:04:44,280
+ Suç belki de.
 
 101
-00:04:51,000 --> 00:04:53,000
-Sometimes they are to protect the one you love.
+00:04:44,360 --> 00:04:47,360
+ Hatta belki de örtmeye, saklamaya çalıştığı şey bir cinayetti.
 
 102
-00:04:53,000 --> 00:04:55,000
-Or you can lie and hide a secret
+00:04:47,440 --> 00:04:48,640
+ Ha avukat?
 
 103
-00:04:55,000 --> 00:04:58,000
-So that someone else's lover doesn't hurt him.
+00:04:48,720 --> 00:04:51,400
+ Sırlar her zaman utançıdan olmaz savcı bey.
 
 104
-00:04:58,000 --> 00:05:00,000
-I don't think you've ever done that in your life.
+00:04:51,480 --> 00:04:53,320
+ Bazen sevdiğini korumak için olur.
 
 105
-00:05:00,000 --> 00:05:01,000
-I haven't been.
+00:04:53,360 --> 00:04:56,520
+ Ya da ne bileyim sırf başkasının sevdiğinin canı acımasın diye...
 
 106
-00:05:01,000 --> 00:05:02,000
-Why?
+00:04:56,600 --> 00:04:58,560
+ ...yalan söyleyip sır saklayabilirsin.
 
 107
-00:05:02,000 --> 00:05:03,000
-Aren't you human?
+00:04:58,640 --> 00:05:00,600
+ Galiba hiç yapmadınız hayatınızda.
 
 108
-00:05:03,000 --> 00:05:04,000
-Don't you ever make mistakes?
+00:05:00,680 --> 00:05:01,800
+ Yapmadım yapmamda.
 
 109
-00:05:04,000 --> 00:05:05,000
-I don't know.
+00:05:01,880 --> 00:05:05,080
+ Neden? Siz insan değil misiniz? Hata yapmıyor musunuz hiç?
 
 110
-00:05:05,000 --> 00:05:06,000
-These are big words.
+00:05:05,160 --> 00:05:06,040
+ Yapmıyorum.
 
 111
-00:05:06,000 --> 00:05:08,000
-You're talking too much.
+00:05:06,120 --> 00:05:09,040
+ Kocaman laflar bunlar. Çok büyük konuşuyorsunuz.
 
 112
-00:05:08,000 --> 00:05:09,000
-Making mistakes is not destiny.
+00:05:09,120 --> 00:05:12,000
+ Hata yapmak kader değil seçimdir avukat hanım.
 
 113
-00:05:09,000 --> 00:05:11,000
-It's an election, Mr. Prosecutor.
+00:05:12,080 --> 00:05:15,400
+ Eğer hata yapma seçiminde bulunursan beni istediğiniz merciye...
 
 114
-00:05:11,000 --> 00:05:13,000
-If I'm in the wrong election,
+00:05:15,480 --> 00:05:17,120
+ ...nereye istiyorsanız şikayet edebilirsiniz.
 
 115
-00:05:13,000 --> 00:05:16,000
-You can complain to me about anything you want.
+00:05:17,200 --> 00:05:18,760
+ Kolluk kuvvetlerini hatta.
 
 116
-00:05:16,000 --> 00:05:18,000
-Even the armed forces.
-
-117
-00:05:18,000 --> 00:05:19,000
-God willing.
-
-118
-00:05:19,000 --> 00:05:21,000
-I hope I'll see those days.
+00:05:18,840 --> 00:05:21,720
+ İnşallah. İnşallah o günleri görürüm.
 
