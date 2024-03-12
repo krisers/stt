@@ -48,5 +48,5 @@ if __name__ == "__main__":
                         is_url=False,
                         url=url,
                         language=transcription_language,
-                        chunk_length=300)
+                        chunk_length=-1)
     print(f'Video transcribed in:/t{time.time()- t0} s ')
